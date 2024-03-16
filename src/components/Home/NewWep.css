@@ -1,0 +1,44 @@
+.text1 {
+    font-size: 40px !important;
+    color: rgb(0, 0, 0);
+    font-family: "Futura PT Demi-Normal-5taag63X" !important;
+    white-space: pre-wrap;
+    text-align: left !important;
+    line-height: 64px !important;
+    padding: 2%;
+}
+
+.body1 {
+    font-size: 26px !important;
+    color: rgb(0, 0, 0);
+    font-family: "Futura PT Book-Normal-PEtZdOHA" !important;
+    text-align: left !important;
+    line-height: 40px !important;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.heading {
+    font-family: "Futura PT Medium-Norma-sc4damH4" !important;
+    font-size: 16px !important;
+    line-height: 27px !important;
+    text-align: left !important;
+    letter-spacing: 1.776px !important;
+}
+
+.title {
+    font-family: "Futura PT Book-Normal-PEtZdOHA" !important;
+    font-size: 20px !important;
+    line-height: 30px !important;
+    text-align: left !important;
+    letter-spacing: normal !important;
+
+}
+
+.link {
+    font-family: Helvetica, Arial, sans-serif !important;
+    font-size: 13px !important;
+    line-height: 16.9px !important;
+    text-align: start !important;
+    letter-spacing: normal !important;
+}

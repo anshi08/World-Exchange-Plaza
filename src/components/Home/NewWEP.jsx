@@ -1,0 +1,81 @@
+import React from 'react';
+import { Grid, Typography } from '@mui/material';
+import Image from "../../assets/newthewep-at-2x-half.jpg"
+import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import './NewWep.css'
+import { Link } from 'react-router-dom';
+import waterMark from "../../assets/homepage-watermark-at-2x-quarter.png"
+
+function NewWEP() {
+    return (
+        <Grid container spacing={2}>
+            <Grid item xs={12} md={8} >
+
+
+                <Typography className='text1'>
+                    Get Ready. <br />Get Excited for<br />the New WEP!
+                </Typography>
+
+                <Typography className='body1'>
+                    Watch as our dynamic revitalization transforms this<br /> legendary
+                    downtown destination into a mindfully<br /> modernized, all-day people place.
+                    Work, meet, dine,<br /> gather, connect and engage with others in an<br /> environment that
+                    inspires the countless possibilities,<br /> opportunities, and unexpected delights of every day.
+                </Typography>
+
+                {/* For showing 3 cards */}
+
+                <Grid container spacing={2} >
+
+                    <Grid item xs={12} md={4}>
+                        <Card sx={{
+                            display: 'flex', flexDirection: 'column',
+                            backgroundColor: 'transparent', borderLeft: '5px solid black'
+                        }} className='my-3' >
+                            <CardContent>
+                                <Typography className='heading'>The Renovation</Typography>
+                                <Typography className='title'>Learn more about our plans and get the latest construction updates.</Typography>
+                            <Link to="/p/2" className='hover:underline link'>Learn More <ArrowRightAltIcon/></Link>
+                            </CardContent>
+                        </Card>
+                    </Grid>
+
+                    <Grid item xs={12} md={4}>
+                        <Card sx={{
+                            display: 'flex', flexDirection: 'column',
+                            backgroundColor: 'transparent', borderLeft: '5px solid black'
+                        }}>
+                            <CardContent>
+                                <Typography className='heading'>REDEVELOPMENT TEAM</Typography>
+                                <Typography className='title'>Learn more about the team behind the project</Typography>
+                            <Link to="/p/3" className='hover:underline link'>Learn More <ArrowRightAltIcon/></Link>
+                            </CardContent>
+                        </Card>
+                    </Grid>
+
+                    <Grid item xs={12} md={4}>
+                        <Card sx={{
+                            display: 'flex', flexDirection: 'column',
+                            backgroundColor: 'transparent', borderLeft: '5px solid black'
+                        }}>
+                            <CardContent>
+                                <Typography className='heading'>CONTACT</Typography>
+                                <Typography className='title'>Curious about our new look and the opportunities that are here?</Typography>
+                            <Link to="/p/4" className='hover:underline link'>Contact Us Now <ArrowRightAltIcon/></Link>
+                            </CardContent>
+                        </Card>
+                    </Grid>
+                </Grid>
+            </Grid>
+
+            {/* Right side */}
+            <Grid item xs={12} md={4}>
+                <img src={Image} />
+            </Grid>
+        </Grid>
+    );
+}
+
+export default NewWEP;
