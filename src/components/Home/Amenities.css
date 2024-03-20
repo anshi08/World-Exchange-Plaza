@@ -1,0 +1,51 @@
+.amenities{
+    font-size: 16px !important;
+    color: rgb(0, 0, 0);
+    font-family: "Futura PT Medium-Norma-sc4damH4" !important;
+    text-align: left !important;
+    line-height: 27px !important;
+}
+
+.boldHeading1{
+    font-style: normal !important;
+    font-size: 70px !important;
+    color: rgb(236, 20, 90);
+    font-family: "Futura PT Demi-Normal-5taag63X" !important;
+    text-align: left !important;
+    padding: 0px;
+    line-height: 72px !important;
+}
+
+.body3{
+    font-size: 26px !important;
+    color: rgb(0, 0, 0);
+    font-family: "Futura PT Book-Normal-PEtZdOHA" !important;
+    overflow: visible;
+    white-space: pre-wrap;
+    text-align: left !important;
+    padding: 0px;
+    line-height: 40px !important;
+}
+
+.body4{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    z-index: 100;
+    font-family: "Futura PT Book-Normal-PEtZdOHA";
+    overflow: visible;
+    white-space: pre-wrap;
+    text-align: left;
+    padding: 0px;
+    line-height: 30px;
+}
+
+.hrLine{
+    width: 60px;
+    height: 5px;
+    transform-origin: 0px 0px;
+    opacity: 1;
+    pointer-events: auto;
+    cursor: inherit;
+    border-width: 0px;
+    background-color: rgb(236, 20, 90);
+}

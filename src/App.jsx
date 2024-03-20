@@ -14,7 +14,7 @@ const App = () => {
 
   return (
     <>
-    {/* <Container maxWidth='xl'> */}
+    {/* <Container maxWidth="xl"> */}
     <Header />
     <Outlet />
     {/* <Footer /> */}

@@ -20,7 +20,7 @@
 
 .heading {
     font-family: "Futura PT Medium-Norma-sc4damH4" !important;
-    font-size: 16px !important;
+    font-size: 13px !important;
     line-height: 27px !important;
     text-align: left !important;
     letter-spacing: 1.776px !important;
@@ -28,7 +28,7 @@
 
 .title {
     font-family: "Futura PT Book-Normal-PEtZdOHA" !important;
-    font-size: 20px !important;
+    font-size: 16px !important;
     line-height: 30px !important;
     text-align: left !important;
     letter-spacing: normal !important;
@@ -42,3 +42,9 @@
     text-align: start !important;
     letter-spacing: normal !important;
 }
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }

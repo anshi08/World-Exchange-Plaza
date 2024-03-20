@@ -1,0 +1,32 @@
+.grid-container {
+    display: grid;
+    /* grid-template-areas:
+      'item1 item2'
+      'item3 item3'; */
+  }
+/*   
+  .item1 { grid-area: item1; }
+  .item2 { grid-area: item2; }
+  .item3 { grid-area: item3; }
+  
+  @media (max-width: 576px) {
+    .grid-container {
+      grid-template-areas:
+        'item1'
+        'item2'
+        'item3';
+    }
+  } */
+
+.item1{
+    grid-row: 1;
+    grid-column: 1 / span 8;
+    /* z-index: ;  */
+}
+.item2{
+    grid-row: 1;
+    grid-column: 1 / span 8;
+    /* padding-top: 20%; // slightly arbitrary, keeps proportion once resized */
+    z-index: 1; 
+}
+  

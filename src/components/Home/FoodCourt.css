@@ -1,0 +1,20 @@
+.horizontalLine{
+    width: 60px;
+    height: 5px;
+    background-color: rgb(93, 199, 209);
+}
+
+.foodCourtImage{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 4rem;
+}
+
+.RenovationBtn{
+    text-align: center;
+    margin: 3rem;
+    border: 2px solid gray;
+    /* width: 25%; */
+    padding: 1rem;
+}

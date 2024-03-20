@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Typography } from '@mui/material';
+import { Box, Grid, Typography } from '@mui/material';
 import Image from "../../assets/newthewep-at-2x-half.jpg"
 import ArrowRightAltIcon from '@mui/icons-material/ArrowRightAlt';
 import Card from '@mui/material/Card';
@@ -11,7 +11,7 @@ import waterMark from "../../assets/homepage-watermark-at-2x-quarter.png"
 function NewWEP() {
     return (
         <Grid container spacing={2}>
-            <Grid item xs={12} md={8} >
+            <Grid item xs={12} md={8}  style={{ backgroundImage: `url(${waterMark})`, backgroundSize: 'cover', backgroundPosition: 'center' }} >
 
 
                 <Typography className='text1'>
@@ -27,26 +27,27 @@ function NewWEP() {
 
                 {/* For showing 3 cards */}
 
-                <Grid container spacing={2} >
+                <Box sx={{ display: 'flex', flexWrap: 'wrap' }}>
+                <Grid container spacing={2} className='clearfix'>
 
                     <Grid item xs={12} md={4}>
                         <Card sx={{
-                            display: 'flex', flexDirection: 'column',
+                            display: 'flex', flexDirection: 'column', height: '200px',
                             backgroundColor: 'transparent', borderLeft: '5px solid black'
-                        }} className='my-3' >
+                        }} >
                             <CardContent>
-                                <Typography className='heading'>The Renovation</Typography>
+                                <Typography className='heading'>THE RENOVATION</Typography>
                                 <Typography className='title'>Learn more about our plans and get the latest construction updates.</Typography>
                             <Link to="/p/2" className='hover:underline link'>Learn More <ArrowRightAltIcon/></Link>
                             </CardContent>
                         </Card>
                     </Grid>
 
-                    <Grid item xs={12} md={4}>
+                    <Grid item xs={12} md={4} >
                         <Card sx={{
-                            display: 'flex', flexDirection: 'column',
+                            display: 'flex', flexDirection: 'column', height: '200px',
                             backgroundColor: 'transparent', borderLeft: '5px solid black'
-                        }}>
+                        }} >
                             <CardContent>
                                 <Typography className='heading'>REDEVELOPMENT TEAM</Typography>
                                 <Typography className='title'>Learn more about the team behind the project</Typography>
@@ -55,11 +56,11 @@ function NewWEP() {
                         </Card>
                     </Grid>
 
-                    <Grid item xs={12} md={4}>
+                    <Grid item xs={12} md={4} >
                         <Card sx={{
-                            display: 'flex', flexDirection: 'column',
+                            display: 'flex', flexDirection: 'column',  height: '200px',
                             backgroundColor: 'transparent', borderLeft: '5px solid black'
-                        }}>
+                        }} >
                             <CardContent>
                                 <Typography className='heading'>CONTACT</Typography>
                                 <Typography className='title'>Curious about our new look and the opportunities that are here?</Typography>
@@ -68,6 +69,7 @@ function NewWEP() {
                         </Card>
                     </Grid>
                 </Grid>
+                </Box>
             </Grid>
 
             {/* Right side */}

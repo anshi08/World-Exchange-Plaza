@@ -1,0 +1,16 @@
+.horizontalLineBlue{
+    width: 60px;
+    height: 5px;
+    background-color: rgb(93, 199, 209);
+}
+
+.spanTitle{
+    font-size: 18px !important;
+    color: rgb(0, 0, 0);
+    z-index: 162;
+    font-family: "Futura PT Book-Normal-PEtZdOHA" !important;
+    white-space: pre-wrap;
+    text-align: left;
+    padding: 0px;
+    line-height: 26px !important;
+}
