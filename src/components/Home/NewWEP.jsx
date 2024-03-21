@@ -58,7 +58,7 @@ function NewWEP() {
 
                     <Grid item xs={12} md={4} >
                         <Card sx={{
-                            display: 'flex', flexDirection: 'column',  height: '200px',
+                            display: 'flex', flexDirection: 'column',height: '200px',
                             backgroundColor: 'transparent', borderLeft: '5px solid black'
                         }} >
                             <CardContent>

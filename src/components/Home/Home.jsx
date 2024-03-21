@@ -11,6 +11,9 @@ import sofaImage from "../../assets/sofaImage.png"
 import SummerComfort from './SummerComfort'
 import Amenities from './Amenities'
 import FoodCourt from './FoodCourt'
+import Slider from './Slider';
+import Community from './Community';
+import PlazaGif from './PlazaGif';
 
 
 const Home = () => {
@@ -53,11 +56,14 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex'>
-                <div>
-                    {/* Svg Paths */}
-                </div>
-                <div>
+            
+            {/* <div className='flex'> */}
+                {/* <div style={{border:'5px solid black'}}>
+                    
+                    <h1>Hello</h1>
+                </div> */}
+                {/* <div> */}
+
                     <div style={{ backgroundColor: 'rgb(249, 250, 252)', padding: '5%' }}>
                         <NewWEP />
                     </div>
@@ -72,8 +78,11 @@ const Home = () => {
                     <img src={sofaImage} />
                     <SummerComfort />
                     <Amenities />
-                </div>
-            </div>
+                    <Slider />
+                    <Community />
+                    <PlazaGif />
+                {/* </div>
+            </div> */}
         </>
     )
 }

@@ -10,13 +10,14 @@ const Amenities = () => {
      <div>
         <Grid container style={{backgroundColor: 'rgb(249, 250, 252)'}}>
             <Grid item xs={12} md={6} 
-            style={{ backgroundImage: `url(${bgImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
-               
-                  <img src={MenImage} width="20%" style={{marginTop:'1rem'}}/>
-       
+            style={{ backgroundImage: `url(${bgImage})`, 
+            backgroundSize: 'cover', backgroundPosition: 'center'}}>
+               <div className='flex justify-center'>
+                  <img src={MenImage} width={300} style={{marginTop:'1rem'}}/>
+                  </div>
             </Grid>
 
-            <Grid item xs={12} md={6}>
+            <Grid item xs={12} md={6} padding={3}>
                  <Typography className='amenities'>
                    AMENITIES
                  </Typography>

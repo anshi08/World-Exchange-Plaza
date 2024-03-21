@@ -13,7 +13,7 @@ const FoodCourt = () => {
     <>
     <div>
       <Grid container spacing={2} padding={4}>
-        <Grid item xs={12} md={6} >
+        <Grid item xs={12} md={6} className='relative' >
           {/* Show sub items */}
           <div className='flex'>
             <Grid item xs={12} md={6}>
@@ -27,11 +27,11 @@ const FoodCourt = () => {
               </Typography>
             </Grid>
           </div>
-          <div className='foodCourtImage'>
-            <Grid item xs={12} md={6}>
+          
+           <div className='absolute right-0 bottom-0'>
               <img src={image1} style={{ width: '100%' }} />
-            </Grid>
-            </div>
+              </div>
+            
         </Grid>
         <Grid item xs={12} md={6} >
           <img src={image2} />

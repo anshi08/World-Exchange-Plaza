@@ -4,12 +4,6 @@
     background-color: rgb(93, 199, 209);
 }
 
-.foodCourtImage{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    margin-top: 4rem;
-}
 
 .RenovationBtn{
     text-align: center;

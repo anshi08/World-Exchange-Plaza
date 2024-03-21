@@ -11,13 +11,13 @@ const GroundFloor = () => {
 
   return (
     <>
-      <div>
-        <Grid container spacing={2}>
-          <Grid item xs={12} md={6} >
+      
+        <Grid container spacing={2} padding={3}>
+          <Grid item xs={12} md={6} className='relative'>
             {/* Show sub items */}
-            <div className='flex justify-end'>
-              <Grid item xs={12} md={6} style={{ border: '2px solid red' }}>
-                <div className='horizontalLineBlue my-2'></div>
+            <div className='flex absolute right-0 bottom-0' >
+            <div>
+            <div className='horizontalLineBlue my-2'></div>
                 <Typography className='spanTitle my-2'>
                   <span>GROUND FLOOR RETAIL</span>
                 </Typography>
@@ -25,11 +25,12 @@ const GroundFloor = () => {
                 <Typography className='spanTitle my-2'>
                   Convenience and variety provide effortless shopping for tenants and visitors alike in this bright and cheerful space
                 </Typography>
-              </Grid>
+            </div>
+             <div style={{width:'100%',height:'100%'}}>
+             <img src={image1} style={{ width: '100%' ,height:'100%', objectFit:'cover'}} />
 
-              <Grid item xs={12} md={6} style={{ border: '2px solid red' }}>
-                <img src={image1} style={{ width: '100%' }} />
-              </Grid>
+            </div>
+             
             </div>
           </Grid>
           <Grid item xs={12} md={6} >
@@ -42,8 +43,8 @@ const GroundFloor = () => {
         <Grid container spacing={3} padding={4}>
           <Grid item xs={12} md={6}>
             <div className='flex justify-end'>
-              <Grid item xs={12} md={2}>
-
+              <Grid item xs={0} md={2}>
+                  {/* Space */}
               </Grid>
               <Grid item xs={12} md={4}>
                 <img src={image3} />
@@ -55,7 +56,7 @@ const GroundFloor = () => {
             <img src={image4} style={{ width: '100%' }} />
           </Grid>
         </Grid>
-      </div>
+      
     </>
   );
 };
