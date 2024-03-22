@@ -14,6 +14,9 @@ import FoodCourt from './FoodCourt'
 import Slider from './Slider';
 import Community from './Community';
 import PlazaGif from './PlazaGif';
+import NavigationComponent from './NavigationComponent';
+import Technology from './Technology';
+import NoDropOutzone from './NoDropOutzone';
 
 
 const Home = () => {
@@ -30,7 +33,8 @@ const Home = () => {
         <>
             <div style={{
                 backgroundImage: `url(${Banner})`,
-                backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: '100vh', position: 'relative'
+                backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: '100vh', position: 'relative',
+                filter:'brightness(70%)'
             }}>
 
                 <div style={{
@@ -56,32 +60,42 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            
+
             {/* <div className='flex'> */}
-                {/* <div style={{border:'5px solid black'}}>
+            {/* <div style={{border:'5px solid black'}}>
                     
                     <h1>Hello</h1>
                 </div> */}
-                {/* <div> */}
+            {/* <div> */}
 
-                    <div style={{ backgroundColor: 'rgb(249, 250, 252)', padding: '5%' }}>
-                        <NewWEP />
-                    </div>
-                    <div style={{ backgroundColor: 'rgb(255, 255, 255)' }}>
-                        <Modernization />
-                        <GroundFloor />
-                        <FoodCourt />
-                    </div>
-                    <div style={{ backgroundColor: 'rgb(249, 250, 252)' }}>
-                        <Wellness />
-                    </div>
-                    <img src={sofaImage} />
-                    <SummerComfort />
-                    <Amenities />
-                    <Slider />
-                    <Community />
-                    <PlazaGif />
-                {/* </div>
+            <div style={{ backgroundColor: 'rgb(249, 250, 252)', padding: '5%' }}>
+                <NewWEP />
+            </div>
+            <div style={{ backgroundColor: 'rgb(255, 255, 255)' }}>
+                <Modernization />
+                <GroundFloor />
+                <FoodCourt />
+            </div>
+            <div style={{ backgroundColor: 'rgb(249, 250, 252)' }}>
+                <Wellness />
+            </div>
+            <img src={sofaImage} />
+            <SummerComfort />
+            <Amenities />
+            <div style={{ backgroundColor: 'rgb(249, 250, 252)' }}>
+                <Slider />
+            </div>
+            <Community />
+            <div style={{ backgroundColor: 'rgb(249, 250, 252)' }}>
+                <PlazaGif />
+
+                <NavigationComponent />
+                <Technology />
+                <div style={{ padding: '2rem' }}>
+                    <NoDropOutzone />
+                </div>
+            </div>
+            {/* </div>
             </div> */}
         </>
     )

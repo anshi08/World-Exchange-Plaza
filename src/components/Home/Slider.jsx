@@ -4,6 +4,7 @@ import image2 from "../../assets/Slider2.png"
 import ArrowForwardIosOutlinedIcon from '@mui/icons-material/ArrowForwardIosOutlined';
 import ArrowBackIosNewOutlinedIcon from '@mui/icons-material/ArrowBackIosNewOutlined';
 import "./Slider.css"
+import { Typography } from '@mui/material';
 
 const Slider = () => {
     // const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -28,14 +29,14 @@ const Slider = () => {
                 <div class="column">
                 <div className="image-container">
                         <img src={image2} alt="food court2" className='responsive' />
-                        RESTAURANT INTERIOR
+                        <Typography className='footertext'>RESTAURANT INTERIOR</Typography>
                         <ArrowForwardIosOutlinedIcon className="arrow-icon" />
                     </div> 
                 </div>  
                 <div class="column">
                 <div className="image-container">
                         <img src={image1} alt="food court2" className='responsive' />
-                        FOOD COURT
+                        <Typography className='footertext'>FOOD COURT</Typography>
                         <ArrowBackIosNewOutlinedIcon className="left"  />
                     </div>  
                 
