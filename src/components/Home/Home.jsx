@@ -41,13 +41,9 @@ const Home = () => {
                     position: 'absolute', top: '25%',
                     left: '10%'
                 }}>
-                    <Typography
-                        style={{
-                            fontSize: '100px', fontFamily: "Futura PT Demi-Normal-5taag63X",
-                            textAlign: 'left', lineHeight: '101px', color: 'white'
-                        }}>
+                    <p className="TransformingText">
                         Transforming<br />Place
-                    </Typography>
+                    </p>
 
                     <Typography className='paragraph'>
                         THE NEW WORLD EXCHANGE PLAZA

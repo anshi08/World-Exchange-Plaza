@@ -11,6 +11,7 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import { Link} from 'react-router-dom';
 import logo from "../../assets/wep-logo-at-2x-tenth.png"
+import "./Header.css"
 
 const Header = () => {
     const [activeTab, setActiveTab] = useState('p/1');
@@ -98,10 +99,9 @@ const Header = () => {
           }}>
             <Button
               component={Link}
+              className='headerNames'
               to="/p/1"
-              sx={{ mx: 1, color: 'black',
-              fontFamily:"Futura PT Demi-Normal-5taag63X", 
-              fontSize:'13px',lineHeight:'26px',fontWeight:'bold',
+              sx={{ mx: 1,
               textDecoration: activeTab === 'p/1' ? '3px underline' : 'none',
               '&:hover': {
                 textDecoration: activeTab === 'p/1' ? '3px underline' : 'none',
@@ -115,8 +115,8 @@ const Header = () => {
             <Button
               component={Link}
               to="/p/2"
-              sx={{ mx: 1, color: 'black', fontFamily:"Futura PT Demi-Normal-5taag63X", 
-              fontSize:'13px',lineHeight:'26px',fontWeight:'bold',
+              className='headerNames'
+              sx={{ mx: 1, 
               textDecoration: activeTab === 'p/2' ? '3px underline' : 'none',
               '&:hover': {
                 textDecoration: activeTab === 'p/2' ? '3px underline' : 'none',
@@ -129,8 +129,8 @@ const Header = () => {
             <Button
               component={Link}
               to="/p/3"
-              sx={{ mx: 1, color: 'black', fontFamily:"Futura PT Demi-Normal-5taag63X", 
-              fontSize:'13px',lineHeight:'26px',fontWeight:'bold',
+              className='headerNames'
+              sx={{ mx: 1,
               textDecoration: activeTab === 'p/3' ? '3px underline' : 'none',
               '&:hover': {
                 textDecoration: activeTab === 'p/3' ? '3px underline' : 'none',
@@ -143,8 +143,8 @@ const Header = () => {
             <Button
               component={Link}
               to="/p/4"
-              sx={{ mx: 1, color: 'black',fontFamily:"Futura PT Demi-Normal-5taag63X", 
-              fontSize:'13px',lineHeight:'26px',fontWeight:'bold',
+              className='headerNames'
+              sx={{ mx: 1, 
               textDecoration: activeTab === 'p/4' ? '3px underline' : 'none',
               '&:hover': {
                 textDecoration: activeTab === 'p/4' ? '3px underline' : 'none',

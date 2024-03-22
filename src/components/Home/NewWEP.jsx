@@ -14,16 +14,16 @@ function NewWEP() {
             <Grid item xs={12} md={8}  style={{ backgroundImage: `url(${waterMark})`, backgroundSize: 'cover', backgroundPosition: 'center' }} >
 
 
-                <Typography className='text1'>
+                <p className='text1'>
                     Get Ready. <br />Get Excited for<br />the New WEP!
-                </Typography>
+                </p>
 
-                <Typography className='body1'>
+                <p className='body1'>
                     Watch as our dynamic revitalization transforms this<br /> legendary
                     downtown destination into a mindfully<br /> modernized, all-day people place.
                     Work, meet, dine,<br /> gather, connect and engage with others in an<br /> environment that
                     inspires the countless possibilities,<br /> opportunities, and unexpected delights of every day.
-                </Typography>
+                </p>
 
                 {/* For showing 3 cards */}
 
@@ -36,8 +36,8 @@ function NewWEP() {
                             backgroundColor: 'transparent', borderLeft: '5px solid black'
                         }} >
                             <CardContent>
-                                <Typography className='heading'>THE RENOVATION</Typography>
-                                <Typography className='title'>Learn more about our plans and get the latest construction updates.</Typography>
+                                <p className='heading'>THE RENOVATION</p>
+                                <p className='title'>Learn more about our plans and get the latest construction updates.</p>
                             <Link to="/p/2" className='hover:underline link'>Learn More <ArrowRightAltIcon/></Link>
                             </CardContent>
                         </Card>
@@ -49,8 +49,8 @@ function NewWEP() {
                             backgroundColor: 'transparent', borderLeft: '5px solid black'
                         }} >
                             <CardContent>
-                                <Typography className='heading'>REDEVELOPMENT TEAM</Typography>
-                                <Typography className='title'>Learn more about the team behind the project</Typography>
+                                <p className='heading'>REDEVELOPMENT TEAM</p>
+                                <p className='title'>Learn more about the team behind the project</p>
                             <Link to="/p/3" className='hover:underline link'>Learn More <ArrowRightAltIcon/></Link>
                             </CardContent>
                         </Card>
@@ -62,8 +62,8 @@ function NewWEP() {
                             backgroundColor: 'transparent', borderLeft: '5px solid black'
                         }} >
                             <CardContent>
-                                <Typography className='heading'>CONTACT</Typography>
-                                <Typography className='title'>Curious about our new look and the opportunities that are here?</Typography>
+                                <p className='heading'>CONTACT</p>
+                                <p className='title'>Curious about our new look and the opportunities that are here?</p>
                             <Link to="/p/4" className='hover:underline link'>Contact Us Now <ArrowRightAltIcon/></Link>
                             </CardContent>
                         </Card>

@@ -18,13 +18,13 @@ const GroundFloor = () => {
             <div className='flex absolute right-0 bottom-0' >
             <div>
             <div className='horizontalLineBlue my-2'></div>
-                <Typography className='spanTitle my-2'>
+                <p className='spanTitle1 my-2'>
                   <span>GROUND FLOOR RETAIL</span>
-                </Typography>
+                </p>
 
-                <Typography className='spanTitle my-2'>
+                <p className='spanTitle1 my-2'>
                   Convenience and variety provide effortless shopping for tenants and visitors alike in this bright and cheerful space
-                </Typography>
+                </p>
             </div>
              <div style={{width:'100%',height:'100%'}}>
              <img src={image1} style={{ width: '100%' ,height:'100%', objectFit:'cover'}} />

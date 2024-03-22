@@ -11,21 +11,21 @@ const Modernization = () => {
         {/* Left Side */}
         <Grid item xs={12} md={6}>
            <div style={{display:'flex', flexDirection:'column'}}>
-              <Typography className='mainheading'>
+              <p className='mainheading'>
                 MODERNIZATION
-              </Typography>
-              <Typography className='BoldText'>
+              </p>
+              <p className='BoldText'>
               Re-imagined. <br/>
               Re-energized.
-              </Typography>
-              <Typography className='body'>
+              </p>
+              <p className='body'>
               The new World Exchange Plaza’s modernization is nothing short of transformative. It ushers 
               in a new spirit destined to resonate with all who gather, work, and visit. Where common and 
               public realm areas have been designed to be places to meet, gather, collaborate or spend a 
               solo moment, peacefully. Where every common area and amenity has been thoughtfully reconsidered 
               and renovated to reflect modern sensibilities. A place that beckons, inspires, and brings 
               a new appreciation for this legendary destination.
-              </Typography>
+              </p>
            </div>
         </Grid>
 

@@ -18,13 +18,13 @@ const FoodCourt = () => {
           <div className='flex'>
             <Grid item xs={12} md={6}>
               <div className='horizontalLine my-2'></div>
-              <Typography className='spanTitle my-2'>
+              <p className='spanTitle1 my-2'>
                 <span>FOODCOURT</span>
-              </Typography>
+              </p>
 
-              <Typography className='spanTitle my-2'>
+              <p className='spanTitle1 my-2'>
               Enjoy delicious food in a lively and upbeat surrounding with plenty of seating in the revitalized Food Court.
-              </Typography>
+              </p>
             </Grid>
           </div>
           
