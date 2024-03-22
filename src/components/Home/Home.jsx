@@ -34,7 +34,7 @@ const Home = () => {
             <div style={{
                 backgroundImage: `url(${Banner})`,
                 backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: '100vh', position: 'relative',
-                filter:'brightness(70%)'
+                filter:'brightness(90%)'
             }}>
 
                 <div style={{
