@@ -24,17 +24,17 @@ const NavigationComponent = () => {
         {/* Right side */}
         <Grid item xs={12} md={6} padding={3} columnSpacing={5}>
         <div style={{ display: 'flex', flexDirection: 'column' }}>
-          <Typography className='mainheading'>
+          <p className='mainheading'>
             NAVIGATION
-          </Typography>
-          <Typography className='boldtext10'>
+          </p>
+          <p className='boldtext10'>
             Find<br />
             Your Way.
-          </Typography>
-          <Typography className='body'>
+          </p>
+          <p className='body'>
             Commuters, make WEP your pedestrian gateway to the LRT Parliament station, via our new and improved Queen Street Entrance, strategically located at the pedestrian and cycle friendly intersection of Queen and O’Connor Streets.
             Once you’re here, there’s no guessing; with new navigation and wayfinding initiatives, and barrier free access, everyone can get to where they’re going smoothly.
-          </Typography>
+          </p>
         </div>
         <img src={SignImage} alt="Sign" style={{ width: '70%', height: 'auto', marginTop: '2rem',marginLeft:'2rem' }} />
       </Grid>

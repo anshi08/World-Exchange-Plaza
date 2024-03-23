@@ -26,17 +26,17 @@ const Slider = () => {
         <>
         
             <div class="row">
-                <div class="column">
+                <div class="column1">
                 <div className="image-container">
                         <img src={image2} alt="food court2" className='responsive' />
-                        <Typography className='footertext'>RESTAURANT INTERIOR</Typography>
+                        <p className='restaurantInterior'>RESTAURANT INTERIOR</p>
                         <ArrowForwardIosOutlinedIcon className="arrow-icon" />
                     </div> 
                 </div>  
-                <div class="column">
+                <div class="column1">
                 <div className="image-container">
                         <img src={image1} alt="food court2" className='responsive' />
-                        <Typography className='footertext'>FOOD COURT</Typography>
+                        <p className='restaurantInterior'>FOOD COURT</p>
                         <ArrowBackIosNewOutlinedIcon className="left"  />
                     </div>  
                 

@@ -11,19 +11,19 @@ const Community = () => {
             {/* Left Side */}
             <Grid item xs={12} md={8} >
                 <div style={{ display: 'flex', flexDirection: 'column',flexWrap:'wrap' }}>
-                    <Typography className='mainheading'>
+                    <p className='mainheading'>
                       COMMUNITY
-                    </Typography>
-                    <Typography className='boldtext1'>
+                    </p>
+                    <p className='boldtext1'>
                     Designed<br/>
                     for People.
-                    </Typography>
-                    <Typography className='body'>
+                    </p>
+                    <p className='body'>
                     Community is where and how we interact, network, and build a<br/> better place and city. With this in mind 
                     WEP has viewed all<br/> common spaces through the lens of places where people can meet,<br/> gather, interact. 
                     Whether casually meeting for a professional chat,<br/> dining with a friend, or collaborating over coffee,
                      WEP has all the space<br/> options you need. 
-                    </Typography>
+                    </p>
                 </div>
             </Grid>
 

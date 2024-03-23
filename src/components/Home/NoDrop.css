@@ -4,6 +4,10 @@
     background-color: rgb(40, 92, 170);
 }
 
+@font-face {
+    font-family:"Futura PT Book-Normal-PEtZdOHA" ;
+    src: url('../../fonts/futurapt-book.woff') format('woff');
+}
 .SmartTechText{
     font-size: 20px !important;
     color: rgb(0, 0, 0);
@@ -12,6 +16,10 @@
     line-height: 30px !important;
 }
 
+@font-face {
+    font-family: "Futura PT Book-Normal-PEtZdOHA" ;
+    src: url('../../fonts/futurapt-book.woff') format('woff');
+}
 .footertext{
     font-size: 17px !important;
     color: rgb(0, 0, 0);

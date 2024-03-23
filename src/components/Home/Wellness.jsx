@@ -11,14 +11,14 @@ const Wellness = () => {
             {/* Left Side */}
             <Grid item xs={12} md={8} >
                 <div style={{ display: 'flex', flexDirection: 'column',flexWrap:'wrap' }}>
-                    <Typography className='mainheading'>
+                    <p className='mainheading'>
                         WELLNESS
-                    </Typography>
-                    <Typography className='boldtext1'>
+                    </p>
+                    <p className='boldtext1'>
                         Well-Being. <br />
                         Well Done.
-                    </Typography>
-                    <Typography className='body'>
+                    </p>
+                    <p className='body'>
                         Throughout our transformation the intent has been to make WEP a<br/> place conducive to 
                         well-being. Our architectural design too aims at<br/> opening up our various spaces to 
                         create a sense of airy, light-<br/>infused, spaciousness. Whether sitting in natural light 
@@ -26,7 +26,7 @@ const Wellness = () => {
                         all interior areas, or basking in the relaxed atmosphere<br/> of our landscaped outdoor 
                         Plaza where sun and blue skies, events<br/> and outdoor amenities greet you, WEP creates 
                         an atmosphere<br/> where well-being thrives.
-                    </Typography>
+                    </p>
                 </div>
             </Grid>
 

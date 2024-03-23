@@ -17,7 +17,7 @@ const PlazaGif = () => {
                 <Grid item xs={12} md={6} padding={3}>
 
                     <img src={gif} />
-                    <Typography className='footertext'>PLAZA</Typography>
+                    <p className='plaza'>PLAZA</p>
                 </Grid>
             </Grid>
 
@@ -29,16 +29,16 @@ const PlazaGif = () => {
             <Grid item xs={12} md={6}>
                 <div>
                         <div className='horizontalYellowLine'></div>
-                    <Typography className='plazaheading'>
+                    <p className='plazaheading'>
                         Head outside and you’ll experience The Plaza:<br/>
                         a transformed landscaped outdoor environment<br/>
                         where cultural events, concerts, group fitness, and<br/> connection to fresh air and nature can all take place.
-                    </Typography>
-                    <Typography className='my-3 plazaBoldHeading'>
+                    </p>
+                    <p className='my-3 plazaBoldHeading'>
                         Culture. Community. Collaboration.<br/>
                         That’s our future.<br/>
                         Welcome to the WEP Community
-                    </Typography>
+                    </p>
                 </div>
             </Grid>
         </Grid>

@@ -1,7 +1,9 @@
 import React from 'react'
 import BgImage from "../../assets/RenovationBgImage.png"
 import SouthIcon from '@mui/icons-material/South';
-import { Typography } from '@mui/material';
+import "./Renovation.css"
+import UnderConstructions from './UnderConstructions';
+import Gallery from './Gallery';
 
 const Renovation = () => {
 
@@ -13,6 +15,7 @@ const Renovation = () => {
 };
 
   return (
+    <>
     <div style={{
       backgroundImage: `url(${BgImage})`,
       backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: '100vh', position: 'relative',
@@ -24,25 +27,27 @@ const Renovation = () => {
             bottom: "20px",
             left: "50px"
       }}>
-          <Typography
-              style={{
-                  fontSize: '100px', fontFamily: "Futura PT Demi-Normal-5taag63X",
-                  textAlign: 'left', lineHeight: '101px', color: 'white'
-              }}>
+          <p className='FollowTheText'>
               Follow<br />the build.
-          </Typography>
+          </p>
 
-          <Typography className='paragraph'>
+          <p className='paragraph'>
               THE NEW WORLD EXCHANGE PLAZA
-          </Typography>
+          </p>
 
           {/* Down Arrow */}
           <div className='learnmore'>
-              <div class="down-arrow"><SouthIcon /></div>
+              <div className="down-arrow"><SouthIcon /></div>
               <button onClick={handleScroll} className='text'>Learn More</button>
           </div>
       </div>
   </div>
+
+  <div style={{backgroundColor:'rgb(249,250,252)'}}>
+     <UnderConstructions />
+     <Gallery />
+  </div>
+  </>
   )
 }
 

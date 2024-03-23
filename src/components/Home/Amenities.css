@@ -1,3 +1,7 @@
+@font-face {
+    font-family:"Futura PT Medium-Norma-sc4damH4"  ;
+    src: url('../../fonts/futuraptmedium.woff') format('woff');
+}
 .amenities{
     font-size: 16px !important;
     color: rgb(0, 0, 0);
@@ -5,10 +9,13 @@
     text-align: left !important;
     line-height: 27px !important;
 }
-
+@font-face {
+    font-family: "Futura PT Demi-Normal-5taag63X" ;
+    src: url('../../fonts/futuraptdemi.woff') format('woff');
+}
 .boldHeading1{
     font-style: normal !important;
-    font-size: 3rem !important;
+    font-size: 70px !important;
     font-weight: bold !important;
     color: rgb(236, 20, 90);
     font-family: "Futura PT Demi-Normal-5taag63X" !important;
@@ -17,6 +24,10 @@
     line-height: 72px !important;
 }
 
+@font-face {
+    font-family:"Futura PT Book-Normal-PEtZdOHA"  ;
+    src: url('../../fonts/futurapt-book.woff') format('woff');
+}
 .body3{
     font-size: 26px !important;
     color: rgb(0, 0, 0);
@@ -28,6 +39,10 @@
     line-height: 40px !important;
 }
 
+@font-face {
+    font-family: "Futura PT Book-Normal-PEtZdOHA" ;
+    src: url('../../fonts/futurapt-book.woff') format('woff');
+}
 .body4{
     font-size: 20px;
     color: rgb(0, 0, 0);

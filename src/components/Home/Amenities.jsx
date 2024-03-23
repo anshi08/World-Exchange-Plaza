@@ -18,29 +18,29 @@ const Amenities = () => {
             </Grid>
 
             <Grid item xs={12} md={6} padding={3}>
-                 <Typography className='amenities'>
+                 <p className='amenities'>
                    AMENITIES
-                 </Typography>
-                 <Typography className='boldHeading1'>
+                 </p>
+                 <p className='boldHeading1'>
                  Tastefully <br/>
                  Transformed.
-                 </Typography>
+                 </p>
                  <div>
-                 <Typography style={{marginTop:'1rem'}} className='body3'>
+                 <p style={{marginTop:'1rem'}} className='body3'>
                  The new food court will be fully transformed and renovated with a modern design that honours 
                  the history and tradition of the building while infusing it with innovative technological 
                  advances, providing the best possible experience for both our retail partners and customers.
-                 </Typography>
+                 </p>
 
                  <hr className='hrLine' style={{marginTop:'1rem'}}  />
 
-                 <Typography className='body4' style={{marginTop:'1rem'}} >
+                 <p className='body4' style={{marginTop:'1rem'}} >
                  Natural sunlight through large windows, together with enhanced hours will encourage people 
                  to meet, dine and enjoy this space certainly during working hours but also after work – 
                  whether it be take-home, happy hour with your colleagues, or dinner before a show! An 
                  enhanced service and amenity focused retail mix, complete with renovated shopfronts, will 
                  create conveniences and efficiencies for office occupants and the community at large.
-                 </Typography>
+                 </p>
                  </div>
                 </Grid>
 

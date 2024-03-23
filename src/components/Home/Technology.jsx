@@ -15,17 +15,17 @@ const Technology = () => {
                 {/* Left side */}
                 <Grid item xs={12} md={6} padding={4} >
                    {/* <div className='flex flex-col justify-center'> */}
-                    <Typography className='mainheading'>
+                    <p className='mainheading'>
                         TECHNOLOGY
-                    </Typography>
-                    <Typography className='boldtext1' style={{color: 'rgb(40, 92, 170)'}}>
+                    </p>
+                    <p className='boldtext1' style={{color: 'rgb(40, 92, 170)'}}>
                         Digitally<br />
                         SMART.
-                    </Typography>
-                    <Typography className='body'>
+                    </p>
+                    <p className='body'>
                         WEP is going contactless, efficiently<br /> “hands-free”- it’s the smart way for today<br />,
                         and the way of tomorrow.
-                    </Typography>
+                    </p>
                     {/* </div> */}
                 </Grid>
 
